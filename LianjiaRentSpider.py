@@ -3,8 +3,8 @@ from bs4 import BeautifulSoup
 import sqlite3
 import time
 import sqlite3
-database_filename = 'SH_lianjia_rentals_ALL.db'
-NULL_INFO = "无"
+database_filename = 'SH_lianjia_rentals_ALL.db'  # 数据库文件名
+NULL_INFO = "未知"  # 网页未展示数据填充为"未知"
 
 # 创建数据库
 def setup_database():
